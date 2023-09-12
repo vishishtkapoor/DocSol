@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 import Header from './Header'
+import CertificateTable from '../Table/CertificateTable'
 const Container = () => {
   return (
     <>
@@ -8,7 +9,11 @@ const Container = () => {
   <Sidebar />
   <div className='flex-1  px-4 pb-4 md:p-4'>
   <div className='bg-white/95 rounded-xl flex flex-col gap-2 w-full p-4 h-full md:rounded-[20px]'>
+
   <Header />
+  
+ 
+
   </div>
   </div>
 
