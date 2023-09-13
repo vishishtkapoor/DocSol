@@ -1,19 +1,22 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import Login from './Login'
-import WalletConnect from '@/components/WalletConnet/WalletConnect'
-import CertificateTable from '@/components/Table/CertificateTable'
+import React from 'react';
+import { ConnectionProvider, WalletProvider, WalletModalProvider } from '@solana/wallet-adapter-react';
 
-const inter = Inter({ subsets: ['latin'] })
+import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 
 export default function Home() {
   return (
+    // <ConnectionProvider endpoint="YourSolanaRpcEndpointHere">
+    //   <WalletProvider wallets={[/* Your wallet adapters here */]} autoConnect>
+    //     <WalletModalProvider>
+    //       <div>
+    //         <WalletMultiButton />
+    //       </div>
+    //       {/* Your other components */}
+    //     </WalletModalProvider>
+    //   </WalletProvider>
+    // </ConnectionProvider>
     <>
-  
-   <div>
-   <CertificateTable />
-   </div>
-
+      
     </>
-  )
+  );
 }

@@ -9,7 +9,7 @@ const Header = () => {
         <h2>Get Your Certificates</h2>
         <div className='flex'>
             <Button className='mx-4'>Claim</Button>
-            <Button>Connect</Button>
+            <Button onclcik>Connect</Button>
         </div>
     
     </div>

@@ -10,6 +10,11 @@
   },
   "dependencies": {
     "@nextui-org/react": "^2.1.10",
+    "@solana/wallet-adapter-backpack": "^0.1.14",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.34",
+    "@solana/wallet-adapter-wallets": "^0.19.22",
     "@solana/web3.js": "^1.78.5",
     "@supabase/supabase-js": "^2.33.2",
     "autoprefixer": "10.4.15",
